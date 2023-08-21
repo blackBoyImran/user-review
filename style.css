@@ -4,8 +4,12 @@
   border-radius: 10px;
   display: block;
   margin-bottom: 20px;
+  background-color: rgb(136, 136, 136);
 }
 body{
   margin: 0;
   padding: 0%;
+}
+.container{
+  margin-top: 20px;
 }
