@@ -1,23 +1,24 @@
 .post1{
-  height: 760px;
-  box-shadow: 5px 5px 10px rgb(186, 186, 186);
+  height: 793px;
+  box-shadow: 5px 5px 15px rgb(164, 164, 164);
   border-radius: 10px;
   display: block;
   margin-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 body{
-  margin: 0;
+  margin: 10px;
   padding: 0%;
 }
 .container{
   margin-top: 20px;
 }
 .resize{
-  height: 650px;
+  height: 700px;
+  margin: 1px;
 }
 .resize img{
-  max-width: 100%;
+  max-width: 98%;
   max-height: 100%;
   margin: auto;
   display: block;
@@ -29,11 +30,24 @@ body{
   margin-right: 10px;
   display: block;
   text-align: center;
+  text-shadow: 1px 1px #000000;
+  color:rgb(14, 14, 14);
+  font-weight: 500;
 }
-.post1 p{
+.date{
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   font-size: 12px;
+  display: block;
   line-height: 15px;
+  margin-bottom: 5px;
+  color: rgb(137, 137, 137);
+}
+.amount{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: green;
+  margin-bottom: 5px;
 }
